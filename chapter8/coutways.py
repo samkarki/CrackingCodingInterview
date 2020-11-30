@@ -1,3 +1,4 @@
+#used some online resource  for this one, can't recall which one.
 def countways(n):
 
     memo = {}
