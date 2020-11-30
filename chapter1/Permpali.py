@@ -25,7 +25,7 @@ def canFormPalindrome(astring):
 
     return True
 
-print(canFormPalindrome("Sam ira"))
+
 print(canFormPalindrome("Tact Coa"))
 print(canFormPalindrome("Don't nod"))
 print(canFormPalindrome('I did, did I?'))
