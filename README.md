@@ -1,2 +1,3 @@
 # CrackingCodingInterview
-Attempting qestions from the CTCI 6th edition.
+Attempting questions from the CTCI 6th edition.
+solutions in master branch
