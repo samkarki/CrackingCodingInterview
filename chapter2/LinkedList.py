@@ -124,14 +124,14 @@ class LinkedList:
 
 
 ll = LinkedList()
-print(ll.print_Linkedlist())
+# print(ll.print_Linkedlist())
 ll.append(3)
-ll.append(4)
+ll.append(5)
 ll.append(9)
 ll.add_Front(12)
 ll.add_after(12,Node(1))
 ll.add_before(12, Node(0))
-print(ll.print_Linkedlist())
+# print(ll.print_Linkedlist())
 # ll.traverse()
 # print(ll.size())
 # print(ll.getData(0))
