@@ -2,6 +2,7 @@ import sys
 sys.path.append(".")
 from LinkedList import *
 
+# time complexity o(n)
 def kth_lastElem(alist, index):
     '''pass index = 1 return the last element index = 2 returns second last element and so on'''
 
