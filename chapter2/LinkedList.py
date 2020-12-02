@@ -4,8 +4,8 @@ class Node:
          self.data = data
          self.next = None
 
-     def __repr__(self):
-        return self.data
+     def __str__(self):
+        return str(self.data)
 
 class LinkedList:
     def __init__(self):
@@ -138,5 +138,5 @@ ll.add_before(12, Node(0))
 # print(ll.getData(1))
 ll.insertValue(0 ,Node(5))
 ll.insertValue(1 ,Node(2))
-print(ll.print_Linkedlist())
+# print(ll.print_Linkedlist())
 

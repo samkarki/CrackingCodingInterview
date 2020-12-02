@@ -1,5 +1,5 @@
 import sys
-sys.path.append("")
+sys.path.append(".")
 from LinkedList import ll
 
 # time complexity o(n), space complexity 0(n)
@@ -20,6 +20,7 @@ def removeDups(alist):
     return elems
 
 print(removeDups(ll))
+
 
 
 
