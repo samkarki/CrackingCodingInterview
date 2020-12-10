@@ -29,3 +29,4 @@ def canFormPalindrome(astring):
 print(canFormPalindrome("Tact Coa"))
 print(canFormPalindrome("Don't nod"))
 print(canFormPalindrome('I did, did I?'))
+print(canFormPalindrome('hello'))

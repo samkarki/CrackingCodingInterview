@@ -19,5 +19,5 @@ print(ll.print_Linkedlist())
 deleteMidnode(ll, 3)
 print(ll.print_Linkedlist())
 
-#the code gives error when the node is first and last, as required 
+#the code gives error when the node is first and last, as required
 #not sure how to raise an error when the node is the first and last element
