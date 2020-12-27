@@ -11,7 +11,7 @@ def deleteMidnode(alist, node):
     while current != None:
         if current.data == node:
             previous.next = current.next
-            current = current.next
+            # current = current.next
         previous= current
         current = current.next
 

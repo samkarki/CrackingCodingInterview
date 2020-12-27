@@ -11,13 +11,14 @@ def removeDups(alist):
     while current != None:
         if current.data not in elems:
             elems.append(current.data)
-            previous = current
-            current = current.next
 
         else:
             previous.next = current.next
-            current = current.next
+        previous = current
+        current = current.next
     return elems
+
+
 
 print(removeDups(ll))
 
