@@ -111,15 +111,15 @@ class LinkedList:
             self.head = newNode
         else:
             current = self.head
-            curr_Index = 0
-            previous = None
+            curr_Index = 1
 
-            while current != None and curr_Index < index -1:
-                current = current.next
+
+            while current != None:
+                if curr_Index == index:
+                    newNode.next = current.next
+                    current.next = newNode
                 curr_Index += 1
-            newNode.next = current.next
-            current.next = newNode
-
+                current = current.next
 
 
 
@@ -131,12 +131,12 @@ ll.append(9)
 ll.add_Front(12)
 ll.add_after(12,Node(1))
 ll.add_before(12, Node(0))
-# print(ll.print_Linkedlist())
+print(ll.print_Linkedlist())
 # ll.traverse()
 # print(ll.size())
 # print(ll.getData(0))
 # print(ll.getData(1))
 ll.insertValue(0 ,Node(5))
 ll.insertValue(1 ,Node(2))
-# print(ll.print_Linkedlist())
+# # print(ll.print_Linkedlist())
 
