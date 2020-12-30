@@ -1,4 +1,4 @@
-# time complexity: O(mn) space complexity O(1)
+# time complexity: O(n) space complexity O(n)
 def mergeSort(l1,l2):#
     x = []
     i = 0
